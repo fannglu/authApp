@@ -1,0 +1,28 @@
+{
+  "name": "m4-w2-d1-authapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fannglu/authApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fannglu/authApp/issues"
+  },
+  "homepage": "https://github.com/fannglu/authApp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-ensure-login": "^0.1.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.10",
+    "passport": "^0.5.2",
+    "passport-local-mongoose": "^7.0.0"
+  }
+}
